@@ -171,13 +171,13 @@ html {
    position: absolute;
    left: 245px;
    opacity: 0.651;
-   background-image: url("../img/left.png");
+   background-image: url("./../img/left.png");
   }
 
   .slider-b-next {
     position: absolute;
     right: 245px;
-    background-image: url("../img/right.png");
+    background-image: url("./../img/right.png");
   }
 
   .up, .down {
@@ -204,7 +204,7 @@ html {
   .slider {
     height: 600px;
     width: 100%;
-    background-image: url("../img/background.jpg");
+    background-image: url("./../img/background.jpg");
   }
  
   .collection {
@@ -510,7 +510,7 @@ html {
    .li2b1,
    .li3b1,
    .li4b1 {
-     background-image: url("../img/heart.png");
+     background-image: url("./../img/heart.png");
      background-repeat: no-repeat;
      background-position: 50%;
    }
@@ -519,7 +519,7 @@ html {
    .li2b2,
    .li3b2,
    .li4b2 {
-     background-image: url("../img/arrows.png");
+     background-image: url("./../img/arrows.png");
      background-repeat: no-repeat;
      background-position: 50%;
    }
@@ -528,7 +528,7 @@ html {
    .li2b3,
    .li3b3,
    .li4b3 {
-    background-image: url("../img/clock.png");
+    background-image: url("./../img/clock.png");
     background-repeat: no-repeat;
     background-position: 50%;
    }
@@ -537,7 +537,7 @@ html {
    .addto-2,
    .addto-3,
    .addto-4 {
-     background-image: url("../img/addto.png");
+     background-image: url("./../img/addto.png");
    }
 
   .overlay-b:hover,
