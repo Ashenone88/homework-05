@@ -59,11 +59,6 @@ html {
     background-color: #e9f0fd;
   }
   
-  .wrapper {
-    width: 1600px;
-
-  }
-  
   .container {
     width: 1110px;
     margin: 0 auto;
@@ -75,6 +70,7 @@ html {
 
   .main-nav {
     padding: 32px 0;
+    width: 1170px;
 
   }
   .main-nav a {
@@ -181,32 +177,42 @@ html {
   }
 
   .up, .down {
-    position: absolute;
     color: #ffffff;
     font-family: 'Roboto';
-    z-index: 10;
 }
 
   .up {
-    top: 150px;
-    left: 431px;
     font-weight: 900;
     font-size: 58px;
     font-family: 'Roboto';
-    z-index: 10;
   }
 
   .down {
-    top: 275px;
-    left:431px;
     font-size: 23px;
   }
+ .headline { 
+  margin: 0;
+  padding: 0;
+}
+
+  .headline h3 {
+    margin: 0;
+  }
+
+  .headline {
+    position: absolute;
+    top: 210px;
+    left: 430px;
+    list-style: none;
+    z-index: 10;
+  }
+
   .slider {
     height: 600px;
     width: 100%;
     background-image: url("./../img/background.jpg");
   }
- 
+  
   .collection {
     padding-bottom: 100px;
     padding-top: 100px;
@@ -336,11 +342,7 @@ html {
   }
 
   li:nth-child(n):hover span {
-    background-color: #7fd9c7
-  }
-
-  .new-collection-item:nth-child(2) {
-    position: relative;
+    background-color: #7fd9c7;
   }
 
   .overlay-two {
